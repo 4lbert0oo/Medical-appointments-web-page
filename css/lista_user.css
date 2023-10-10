@@ -1,0 +1,66 @@
+/*NAVEGADOR*/
+
+body{
+
+  background-position: 90%;
+  background-size: 290px;
+  background-repeat: no-repeat;
+  background-image: url('Logo.jpg');
+  width: auto;
+  background-attachment: fixed;
+}
+
+
+#Busqueda{
+  padding-left: 10px;
+  text-align:center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#tabla{
+  border: 1px solid black;
+  table-layout: auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#tabla td{
+  border: 1px solid black;
+  width: 300px;
+  height: 30px;
+  padding: 8px;
+  /*background-color: #95D9F7;*/
+}
+#tabla th{
+  width: 70px;
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+}
+
+.botones {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  width: 80px;
+  height: 30px;
+  border-style: none;
+}
+
+.botones:hover{
+  background-color: grey;
+}
+
+.botones:active{
+  background-color: white;
+  color: black;
+}
+.botones:active{
+  background-color: white;
+  color: black;
+}
+footer{
+  position: absolute;
+  bottom: 5px;
+}

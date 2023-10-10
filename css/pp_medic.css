@@ -1,0 +1,50 @@
+/*NAVEGADOR*/
+
+
+
+body{
+
+  background-repeat:repeat;
+  background-image: url('fondo.jpg');
+
+}
+.cuerpo{
+
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: white;
+  height: 100%;
+}
+
+.boton{
+  border-style: none;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+.boton:hover{
+
+  background-color: lightgrey;
+}
+.boton:active{
+  color:black ;
+  background-color: white;
+}
+
+footer{
+  position: absolute;
+  bottom: 5px;
+}
+#horario{
+
+  position: absolute;
+  top: 150px;
+  left:500px;
+  text-align: center;
+}
+#citas{
+  position: absolute;
+  top: 250px;
+  left:550px;
+}

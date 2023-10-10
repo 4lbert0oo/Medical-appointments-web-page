@@ -1,0 +1,57 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+.fondo_navegador{
+  background-color: black;
+  height: 40px;
+}
+#navegador {
+  margin:auto;
+  width:900px;
+  font-family: Arial,Helvetica,sans-serif;
+  z-index: 100;
+}
+
+#navegador ul{
+  list-style: none;
+  background-color: black;
+}
+
+.nav li a{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  border-color: white;
+
+}
+
+.nav li a:hover{
+  background-color: grey;
+  color: white;
+}
+
+.nav > li{
+  float: left;
+}
+
+.nav li ul{
+  display: none;
+  position: absolute;
+  min-width: 150px;
+}
+
+.nav li:hover > ul{
+  display:block;
+}
+.nav li ul li{
+  position: relative;
+}
+
+.nav li ul li ul{
+  right:-150px;
+  top:0px;
+
+}

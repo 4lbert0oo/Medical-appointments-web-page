@@ -1,0 +1,71 @@
+/*NAVEGADOR*/
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+
+  background-position:  700px 100px;
+  background-size: 290px;
+  background-repeat: no-repeat;
+  background-image: url('Logo.jpg');
+}
+
+
+footer{
+  position: absolute;
+  bottom: 5px;
+}
+#form{
+  padding-left: 20px;
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 50px;
+  background-color: lightblue;
+  width: 400px;
+  border-color: black;
+  border-spacing: 5px;
+  margin:left;
+  height: 110px;
+
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+  background-position: left;
+  margin-bottom:  250px;
+}
+
+#tabla{
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+
+form td{
+
+}
+
+#cosa{
+  color: #FF0000;
+}
+
+#Registrar{
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-style: none;
+}
+#Registrar:hover{
+  background-color: grey;
+}
+
+#Registrar:active{
+  background-color: white;
+  color: black;
+}
+#obligatorio{
+  text-align: left;
+  padding-top: 10px;
+}

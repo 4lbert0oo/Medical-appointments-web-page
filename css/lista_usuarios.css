@@ -1,0 +1,64 @@
+/*NAVEGADOR*/
+
+body{
+
+  background-repeat:repeat;
+  background-image: url('fondo.jpg');
+
+}
+
+.cuerpo{
+  margin-left: 270px;
+  margin-right:270px;
+  background-color: white;
+  height: 100%;
+}
+
+
+#Busqueda{
+  padding-left: 10px;
+  text-align:left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#tabla{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 800px;
+}
+
+#tabla td{
+  border: 1px solid black;
+
+  padding: 8px;
+
+}
+#tabla th{
+
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+}
+
+.botones {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-style: none;
+}
+
+.botones:hover{
+  background-color: grey;
+}
+
+.botones:active{
+  background-color: white;
+  color: black;
+}
+
+footer{
+  position: absolute;
+  bottom: 5px;
+}

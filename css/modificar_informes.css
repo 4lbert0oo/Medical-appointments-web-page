@@ -1,0 +1,82 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+
+  background-position: 70px 300px;
+  background-size: 290px;
+  background-repeat: no-repeat;
+  background-image: url('Logo.jpg');
+}
+
+
+footer{
+  position: absolute;
+  bottom: 5px;
+}
+#form{
+  padding-left: 20px;
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 50px;
+  background-color: lightblue;
+
+  width: 450px;
+  border-color: black;
+  border-spacing: 5px;
+  margin:left;
+  height: 50px;
+
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+  background-position: left;
+  margin-bottom:  30px;
+  padding-bottom: 20px;
+}
+
+#tabla{
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+
+
+#cosa{
+  color: #FF0000;
+}
+
+.boton{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding:5px;
+  border-style: none;
+}
+
+#atras{
+  position: absolute;
+  top:350px;
+  left:20px;
+}
+
+.boton:hover{
+  background-color: grey;
+}
+
+#obligatorio{
+  text-align: left;
+  padding-top: 10px;
+}
+.boton:active{
+  background-color: white;
+  color: black;
+}
+#contenido{
+  background-color:white ;
+  margin-left: 500px;
+  margin-bottom: 100px;
+
+  border: solid 2px black;
+}
